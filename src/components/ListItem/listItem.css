@@ -1,0 +1,63 @@
+/*LIST ITEM*/
+
+.list-item {
+  border-bottom: 1px solid #585858;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.list-item:hover {
+  background-color: #c4c4c4;
+}
+
+.list-item .place_mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item .place_mail .country-city {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.list-item .place_mail .email {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.list-item .name_company {
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item .name_company .name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #686868;
+}
+
+.list-item .name_company .company {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #686868;
+}

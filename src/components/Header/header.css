@@ -1,0 +1,26 @@
+/*HEADER*/
+.logo {
+  width: 709px;
+  margin-top: 237px;
+  margin-left: 215px;
+}
+
+.logo .text {
+  margin-left: 210px;
+  margin-top: 0;
+}
+
+.logo .text p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.logo .logo-tas {
+  width: 278px;
+  height: 115px;
+}

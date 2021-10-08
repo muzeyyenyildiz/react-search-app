@@ -1,0 +1,56 @@
+/*Order*/
+.order-container {
+  width: 800px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.order-container .order {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.order-list {
+  display: none;
+  position: absolute;
+  top: 90%;
+  width: 160px;
+  left: calc(100% - 30px);
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: white;
+}
+
+.order-container:hover .order-list {
+  display: block;
+}
+
+.order-list li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.order-list li:hover,
+.order-list li.active {
+  background-color: #c4c4c4;
+  border-radius: 4px;
+  color: white;
+}

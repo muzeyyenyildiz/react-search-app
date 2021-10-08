@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+  margin: auto;
+  width: 992px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*DETAIL PAGE*/
+.detail-container {
+  margin-top: 27px;
+  margin-left: 37px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.detail-container .header {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.detail-container .header img {
+  width: 149px;
+  height: 63px;
+}
+
+.detail-container .header .input-holder {
+  margin-left: 37px;
+}
+
+.detail-container .detail-list {
+  width: 952px;
+
+  margin: auto;
+}
+
+.detail-list-container {
+  padding-top: 80px;
+}
+
+#react-paginate ul {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+#react-paginate li {
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+#react-paginate li a {
+  padding: 6px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#react-paginate li.active,
+#react-paginate li:hover {
+  background: gray;
+  color: #fff;
 }

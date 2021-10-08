@@ -1,0 +1,53 @@
+/*FORM CONTAINER*/
+
+.submit-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.input-holder {
+  width: 709px;
+  height: 46px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  padding: 0;
+  text-align: center;
+}
+
+.error {
+  border: 1px solid red !important;
+  color: red;
+}
+
+.input-holder:hover,
+.input-holder:hover input {
+  border-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(100, 100, 100, 0.08);
+}
+
+.search-btn {
+  font-size: 18px;
+  height: 46px;
+  width: 138px;
+  border-radius: 8px;
+  background-color: #204080;
+  color: white;
+  margin-left: 24px;
+  cursor: pointer;
+  border: 1px solid #204080;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.submit-container button:hover {
+  background-color: #4f75c2;
+  border: 1px solid #4f75c2;
+}

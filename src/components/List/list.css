@@ -1,0 +1,44 @@
+/*LIST*/
+
+.list {
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.list-none {
+  display: none;
+}
+
+.list .list-container {
+  width: 850px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 18px 32px;
+}
+
+.list-border {
+  width: 709px !important;
+  border: 1px solid #484848;
+  border-radius: 4px;
+}
+
+.list .list-container .show {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.list .list-container button {
+  background-color: white;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.list .list-container button:hover {
+  text-decoration: underline;
+}
