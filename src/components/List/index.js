@@ -8,7 +8,7 @@ const List = (props) => {
     filteredData = [],
     query = "",
     showMore = false,
-    dataLength,
+    dataLength = 0,
     isBorder = false,
   } = props;
 
@@ -30,6 +30,7 @@ const List = (props) => {
         })}
         {showMore && dataLength > 3 ? (
           <div className="show">
+            <p className="explain">{dataLength} data found.</p>
             <button>
               <Link to={`/search/${query}`}>Show more..</Link>
             </button>

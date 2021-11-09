@@ -3,6 +3,7 @@ import "./listItem.css";
 
 const ListItem = (props) => {
   const {user} = props;
+  
 
   return (
     <div className="list-item">

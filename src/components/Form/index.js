@@ -2,8 +2,8 @@ import {useState} from "react";
 import "./form.css";
 
 const Form = (props) => {
-  const {onSubmit} = props;
-  const [searchedText, setSearchedText] = useState("");
+  const {onSubmit, query = ''} = props;
+  const [searchedText, setSearchedText] = useState(query);
   const [isSubmitted, setSubmitted] = useState(false)
 
   const textInput = (event) => {

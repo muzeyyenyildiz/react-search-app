@@ -29,5 +29,5 @@ export const filterData = ($data, $query) => {
       .toString()
       .toLowerCase()
       .includes($query.toLowerCase());
-  })
+  });
 };

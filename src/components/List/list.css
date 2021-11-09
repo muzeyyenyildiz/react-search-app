@@ -42,3 +42,9 @@
 .list .list-container button:hover {
   text-decoration: underline;
 }
+
+.explain{
+  font-size: 10px;
+  font-weight: bold;
+  color: gray; 
+}
