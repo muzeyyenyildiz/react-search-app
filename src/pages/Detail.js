@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPaginate from "react-paginate";
 import List from "../components/List";
-import Logo from "../img/logo.svg";
+import Logo from "../img/Untitled design.png";
 import Form from "../components/Form";
 import mockData from "../api/mockData.json";
 import Order from "../components/OrderBy";
